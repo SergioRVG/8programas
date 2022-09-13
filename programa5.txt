@@ -1,0 +1,13 @@
+int [] numeros = new  int [] { 28 , 50 , 40 , 300 , 20 , 44 , 100 , 153 };    //1
+        int  mayor = numeros [ 0 ];                                           //1 
+        for ( int  x = 1 ; x < numeros . length ; x ++) {                     //n
+            if ( numeros [ x ] > mayor ) {                                    //n
+				mayor = numeros [ x ];                        //n
+                               
+                                }
+		}
+        sistema _ fuera _ println ( "El mayor es: " + mayor );                //n
+    }
+
+complejidad espacial===========>
+complejidad temporal===========>4n+2==>O(n)
